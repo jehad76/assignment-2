@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 main,
 header {
     margin: 10px 120px;
+}
+
+#btn-primary {
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
 }
 
 nav {
@@ -136,6 +145,10 @@ ul {
 
 }
 
+.main-section img {
+    margin-top: 50px;
+}
+
 .Popular-section {
     gap: 10px;
     line-height: 26px;
@@ -163,6 +176,7 @@ ul {
     line-height: 26px;
     text-align: left;
 }
+
 .btn-read-more {
     border-radius: 8px;
     background: rgb(255, 84, 0);
@@ -220,8 +234,95 @@ ul {
 }
 
 .choose-image-4 img {
-    width: 485px;
+    width: 50%;
     padding: 20px;
+}
+
+#choose-img {
+    width: 45%;
+}
+
+/* address */
+
+.maldives {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 75px;
+    left: 300px;
+}
+
+.Indonesia {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    padding-top: 75px;
+    right: 300px;
+}
+
+.Srilanka {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    padding-top: 100px;
+    left: 230px;
+
+}
+
+.North-America {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    padding-top: 100px;
+    left: 550px;
+}
+
+.Kashmir {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    padding-top: 100px;
+    right: 225px;
+}
+
+.Bangladesh {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    padding-top: 100px;
+    left: 270px;
+}
+
+.Bandarban {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    padding-top: 100px;
+    right: 305px;
 }
 
 .hotel-address {
@@ -239,6 +340,7 @@ ul {
     border-radius: 16px;
     background: rgba(251, 181, 99, 0.05);
     padding-top: 60px;
+    padding-left: 40px;
 }
 
 .hotel-location {
@@ -249,6 +351,8 @@ ul {
     border-radius: 16px;
     background: rgba(41, 206, 246, 0.05);
     padding-top: 60px;
+    padding-left: 40px;
+
 }
 
 .hotel-location img {
@@ -281,6 +385,7 @@ ul {
 
 .hotel-price {
     padding-top: 60px;
+    padding-left: 40px;
 }
 
 .discount-section {
@@ -305,7 +410,7 @@ ul {
     width: 500px;
     height: 350px;
     left: 600px;
-    top: 3640px;
+    top: 3730px;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
@@ -400,7 +505,7 @@ ul {
     width: 500px;
     height: 350px;
     left: 170px;
-    top: 4160px;
+    top: 4250px;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
@@ -486,7 +591,7 @@ ul {
     width: 500px;
     height: 350px;
     left: 600px;
-    top: 4685px;
+    top: 4780px;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
@@ -519,13 +624,18 @@ ul {
     height: 52px;
     border: 0;
     left: 550px;
-    top: 5200px;
+    top: 5250px;
 }
 
 .simple-place {
     display: flex;
-    margin-top: 200px;
+    margin-top: 100px;
 }
+
+.simple-place img {
+    margin-top: 50px;
+}
+
 
 .news-letter {
     display: flex;
@@ -563,8 +673,8 @@ ul {
 
 .type-name input {
     margin-top: 30px;
-    width: 250px;
-    height: 50px;
+    width: 230px;
+    height: 40px;
     border-radius: 8px;
     border: 0;
     background: rgba(19, 19, 24, 0.05);
@@ -572,19 +682,19 @@ ul {
 }
 
 .type-email input {
-    width: 250px;
-    height: 50px;
+    width: 230px;
+    height: 40px;
     border-radius: 8px;
     border: 0;
     background: rgba(19, 19, 24, 0.05);
     margin-top: 16px;
-    margin-left: 25px;
+    margin-left: 22px;
 }
 
 .Subscribe button {
     margin-top: 20px;
-    width: 250px;
-    height: 50px;
+    width: 230px;
+    height: 40px;
     border-radius: 8px;
     border: 0;
     background: rgb(255, 84, 0);
@@ -603,6 +713,36 @@ ul {
     margin-left: 50px;
 }
 
+.offer {
+    position: absolute;
+    width: 324px;
+    height: 110px;
+    left: 805px;
+    top: 6075px;
+    transform: rotate(-19.63deg);
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    text-align: center;
+}
+
+.offer h5 {
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.offer h3 {
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 0px;
+}
+.hr-1{
+    width: 230px;
+}
 /* footer */
 
 .footer-section {
@@ -613,14 +753,16 @@ ul {
     background: rgba(19, 19, 24, 0.05);
 }
 
-.footer-travel img{
+.footer-travel img {
     margin-top: 50px;
 
 }
-.footer-travel h3{
+
+.footer-travel h3 {
     margin-top: 70px;
 
 }
+
 .footer-travel {
     display: flex;
     justify-content: center;
