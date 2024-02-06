@@ -107,6 +107,10 @@ ul {
     border-radius: 8px;
 }
 
+::placeholder {
+    padding: 20px;
+}
+
 .find-now {
     border-radius: 8px;
     border: 0;
@@ -220,7 +224,6 @@ ul {
 
 .choose-country div {
     display: flex;
-    justify-content: center;
 }
 
 .choose-image-1 img {
@@ -718,7 +721,7 @@ ul {
     width: 324px;
     height: 110px;
     left: 805px;
-    top: 6075px;
+    top: 6127px;
     transform: rotate(-19.63deg);
     border-radius: 16px;
     background: rgb(255, 84, 0);
@@ -740,15 +743,13 @@ ul {
     font-weight: 800;
     line-height: 0px;
 }
+
 .hr-1{
     width: 230px;
 }
-/* footer */
-
 .footer-section {
     margin-top: 100px;
     width: 1250px;
-
     height: 400px;
     background: rgba(19, 19, 24, 0.05);
 }
@@ -793,4 +794,292 @@ ul {
 .hr {
     margin-top: 10px;
     width: 822px;
+}
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+
+    main,
+    header {
+        margin: 0;
+    }
+
+    .banner-section {
+        background-position: center;
+
+        width: 359px;
+    }
+
+    .input-type {
+        display: grid;
+    }
+
+    .choose-title {
+        font-size: 30px;
+    }
+
+    .nav-header {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+
+    .find-now {
+        width: auto;
+    }
+
+    .title-description {
+        font-size: 9px;
+    }
+
+    .input-type .type {
+        margin: 5px 0;
+        padding: 17px 0;
+    }
+
+    .nav-header {
+        display: none;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .main-image img {
+        width: 359px;
+    }
+
+    .Popular-section li {
+        text-decoration: double;
+    }
+
+    .our-title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 10px;
+
+    }
+
+    .destination-title {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .choose-country div {
+        flex-direction: column;
+    }
+
+    .choose-image-2 {
+        flex-direction: column;
+    }
+
+    .choose-image-1 img {
+        width: 351px;
+        padding: 5px;
+    }
+
+    .choose-image-2 img {
+        width: 351px;
+        padding: 5px;
+    }
+
+    .choose-image-4 img {
+        width: 351px;
+        padding: 5px;
+    }
+
+    #choose-img {
+        width: 351px;
+    }
+
+    .maldives {
+        padding-bottom: 260px;
+        left: 130px;
+    }
+
+    .Indonesia {
+        padding-top: 180px;
+        right: 125px;
+    }
+
+    .Srilanka {
+        padding-bottom: 690px;
+        left: 133px;
+    }
+
+    .Kashmir {
+        padding-top: 520px;
+        right: 130px;
+    }
+
+    .Bangladesh {
+        padding-bottom: 255px;
+        left: 110px;
+    }
+
+    .Bandarban {
+        padding-top: 222px;
+        right: 115px;
+    }
+
+    .North-America {
+        padding-bottom: 190px;
+        left: 90px;
+    }
+
+    .hotel-address {
+        flex-direction: column;
+    }
+
+    
+
+    .images-9 {
+        width: 313px;
+        height: 350px;
+        left: 32px;
+        top: 5760px;
+    }
+
+    .images-9 img {
+        width: 19px;
+        height: 20px;
+        margin-top: 27px;
+        margin-left: 6px;
+    }
+
+    .tour-description-2 {
+        width: 275px;
+        height: 70px;
+        margin-top: 60px;
+        line-height: 20px;
+    }
+    .tour-description-1{
+        width: 275px;
+        height: 70px;
+        margin-top: 60px;
+        line-height: 20px;
+    }
+
+    .tour-section-2 {
+        left: 26px;
+        margin-top: 50px;
+    }
+    .tour-section-1 {
+        left: 26px;
+        margin-top: 50px;
+    }
+
+    .price-section {
+        margin-left: 5px;
+        width: 348px
+    }
+
+    .hotel-location {
+        width: 348px;
+        margin-left: 5px;
+    }
+
+    .hotel-name {
+        width: 348px;
+        margin-left: 5px;
+    }
+
+    .images-10 {
+        width: 316px;
+        left: 30px;
+        top: 6285px;
+    }
+    .images-10 img {
+        width: 19px;
+        height: 20px;
+        margin-top: 27px;
+        margin-left: 6px;
+    }
+    .images-6 img {
+        width: 19px;
+        height: 20px;
+        margin-top: 27px;
+        margin-left: 6px;
+    }
+    .images-10 img {
+        width: 19px;
+        height: 20px;
+        margin-top: 27px;
+        margin-left: 6px;
+    }
+    .images-6 {
+        width: 316px;
+        left: 30px;
+        top: 5234px;
+    }
+    .tour-price-2 {
+        margin-top: 160px;
+    }
+
+    .all-package{
+        display: none;
+    }
+    .simple-place{
+        flex-direction: column;
+    }
+    .simple-place img{
+        width: 361px;
+    }
+    .news-letter{
+        flex-direction: column;
+    }
+    .news-box {
+        margin-top: 0px;
+        width: 359px;
+        height: 410px 
+    }
+    .type-email input {
+        width: 294px;
+        margin-top: 16px;
+        margin-left: 30px;
+    }
+    .type-name input {
+        width: 294px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .Subscribe button {
+        width: 294px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .hr-1 {
+        width: 359px;
+    }
+    .images-news{
+        margin-left: 0;
+    }
+    .images-news img{
+        padding-top: 10px;
+        width: 359px;
+        
+    }
+    .footer-section{
+        margin-top: 50px;
+        width: 365px;
+    }
+    .hr{
+        width: 300px;
+    }
+    .offer {
+        width: 197px;
+        height: 85px;
+        left: 166px;
+        top: 7989px;
+    }
+    .offer h3 {
+        font-size: 21px;
+    }
+
 }
